@@ -1,2 +1,4 @@
 title: My Awesome Site
-theme: minimal-mistakes-jekyll
+remote-theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-remote-theme
