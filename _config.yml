@@ -1,4 +1,5 @@
 title: "Travel | “The World is a book, and those who do not travel read only a page.” – Saint Augustine"
+baseurl: "_site"
 excerpt_separator: <!--more-->
 collections:
   category:
