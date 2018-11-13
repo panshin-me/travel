@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<header class="page-header">
+    <h1 class="page-title"> {{ page.collectionName }} </h1>
+</header>
+<!-- .page-header -->
+{% for post in site.categories[page.collectionName] %}
+{% include post-preview.html %}
+{% endfor %}

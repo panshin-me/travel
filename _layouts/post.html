@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<article id="post-264" class="post-264 post type-post status-publish format-standard has-post-thumbnail hentry category-nature category-ski">
+    {% if page.imageFeature %}
+    <div class="post-thumbnail">
+        <img width="1068" height="712" src="{% asset_path '{{ page.imageFeature }}' magick:resize:1068^ %}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+            alt="" />
+    </div>
+    {% endif %}
+
+    <header class="entry-header">
+        <!-- temporary date formatting -->
+        <div class="entry-date">
+            {{ page.date | date: "%b" }}<br />
+            {{ page.date | date: "%e" }} </div>
+
+        <h1 class="entry-title">{{ page.title }}</h1>
+
+        <div class="entry-meta">
+            <span class="entry-author">{{ page.author }}</span> &nbsp;
+            <!-- <span class="entry-comments">No comments yet</span> -->
+        </div><!-- .entry-meta -->
+    </header><!-- .entry-header -->
+
+    <div class="entry-content">
+        <div class="flare-horizontal flare-backgroundcolor-light enablecounters enabletotal flare-hidden"
+            data-humbleflarecount="5">
+            <span class="loading"><span></span></span>
+            <span class="flare-total first"><strong>1</strong> Flares</span>
+
+
+            <span data-type="filament" class="flare-button button-type-filament flare-iconstyle-round-bevel last" style="background-color:#9848b5;z-index:0">
+                <span class="flare-button-wrap">
+                    <span class="flare-button-icon">Filament.io</span>
+                </span>
+            </span>
+
+            <span class="flare-flyout flare-flyout-filament">
+                <span class="flare-flyout-inner">
+                    <span class="flare-arrow"></span>
+                </span>
+                <span class="flare-iframe-wrapper" data-code-snippet='<a href="https://filament.io/applications/flare?utm_source=flare_wp&utm_medium=deployment&utm_content=flarebar&utm_campaign=filament" target="_blank">Made with <strong>Flare</strong> <span>More Info</span></a>'></span>
+            </span>
+
+            <span class="flare-total last"><strong>1</strong> Flares</span>
+
+            <span class="close">
+                <a href="#close">&#215;</a>
+            </span>
+        </div>
+        {{ content }}
+    </div><!-- .entry-content -->
+
+    <footer class="entry-meta">
+        {% if page.categories.size > 0 %}
+        <span class="cat-links">
+            Posted in
+            {% for category in page.categories %}
+            <a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}
+            {% endfor %}
+        </span>
+        {% endif %}
+
+        <nav class="navigation post-navigation" role="navigation">
+            <h1 class="screen-reader-text">Post navigation</h1>
+            <div class="nav-links">
+                {% if page.previous.url %}
+                <div class="nav-previous"><a href="{{page.previous.url}}" rel="prev"><span class="meta-nav">&larr;</span>
+                        {{page.previous.title}}</a></div>
+                {% endif %}
+                {% if page.next.url %}
+                <div class="nav-next"><a href="{{page.next.url}}" rel="next">{{page.next.title}} <span class="meta-nav">&rarr;</span></a></div>
+                {% endif %}
+            </div><!-- .nav-links -->
+        </nav><!-- .navigation -->
+    </footer><!-- .entry-meta -->
+</article><!-- #post-## -->

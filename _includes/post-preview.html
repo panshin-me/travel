@@ -1,0 +1,32 @@
+<article class="post type-post status-publish format-standard hentry category-nature category-ski {% if post.imageFeature %}has-post-thumbnail{% endif %}">
+    {% if post.imageFeature %}
+    <div class="post-thumbnail">
+        <img width="1068" height="712" src="{% asset_path '{{ post.imageFeature }}' magick:resize:1068^ %}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+            alt="" />
+    </div>
+    {% endif %}
+    <div class="post-content">
+        <header class="entry-header">
+            <div class="entry-date">
+                {{ post.date | date: "%b" }}<br />
+                {{ post.date | date: "%e" }} </div>
+
+            <h1 class="entry-title"><a href="{{ post.url }}" rel="bookmark">{{ post.title }}</a></h1>
+
+            <div class="entry-meta">
+                <span class="entry-author">{{ post.author }}</span> &nbsp;
+                <!-- <span class="entry-comments">No comments yet</span> -->
+            </div><!-- .entry-meta -->
+        </header><!-- .entry-header -->
+
+        {% if post.content contains site.excerpt_separator %}
+        <div class="entry-content">
+            {{ post.excerpt }}<a class="read-more" href="{{ post.url }}">Read More &rarr;</a>
+        </div><!-- .entry-content -->
+        {% endif %}
+        <footer class="entry-meta">
+
+
+        </footer><!-- .entry-meta -->
+    </div><!-- .post-content -->
+</article><!-- #post-## -->

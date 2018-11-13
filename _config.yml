@@ -1,10 +1,13 @@
-remote_theme: mmistakes/minimal-mistakes
 title: "Travel | “The World is a book, and those who do not travel read only a page.” – Saint Augustine"
-plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+excerpt_separator: <!--more-->
+collections:
+  category:
+    output: true
+    permalink: /:collection/:name
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

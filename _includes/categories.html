@@ -1,0 +1,11 @@
+<aside id="categories-3" class="widget widget_categories">
+    <h1 class="widget-title">Categories</h1>
+    <ul>
+        {% for category in site.categories %}
+        {% capture categoryName %}{{ category | first }}{% endcapture %}
+        <li class="cat-item"><a href="/category/{{ categoryName }}">{{ categoryName }}</a>
+            ({{ site.categories[categoryName].size }})
+        </li>
+        {% endfor %}
+    </ul>
+</aside>
