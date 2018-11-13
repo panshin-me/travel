@@ -4,6 +4,9 @@ collections:
   category:
     output: true
     permalink: /:collection/:name
+gems:
+  - jekyll-assets
+  - mini_magick
 defaults:
   -
     scope:
