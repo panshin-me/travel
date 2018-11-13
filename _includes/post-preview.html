@@ -1,7 +1,7 @@
 <article class="post type-post status-publish format-standard hentry category-nature category-ski {% if post.imageFeature %}has-post-thumbnail{% endif %}">
     {% if post.imageFeature %}
     <div class="post-thumbnail">
-        <img width="1068" height="712" src="{% asset '{{ post.imageFeature }}' @path magick:resize:1068^ %}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+        <img width="1068" height="712" src="{% asset_path '{{ post.imageFeature }}' magick:resize:1068^ %}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
             alt="" />
     </div>
     {% endif %}

@@ -4,7 +4,7 @@ layout: default
 <article id="post-264" class="post-264 post type-post status-publish format-standard has-post-thumbnail hentry category-nature category-ski">
     {% if page.imageFeature %}
     <div class="post-thumbnail">
-        <img width="1068" height="712" src="{% asset '{{ page.imageFeature }}' @path magick:resize:1068^ %}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+        <img width="1068" height="712" src="{% asset_path '{{ page.imageFeature }}' magick:resize:1068^ %}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
             alt="" />
     </div>
     {% endif %}
@@ -24,7 +24,7 @@ layout: default
     </header><!-- .entry-header -->
 
     <div class="entry-content">
-        <!-- <div class="flare-horizontal flare-backgroundcolor-light enablecounters enabletotal flare-hidden"
+        <div class="flare-horizontal flare-backgroundcolor-light enablecounters enabletotal flare-hidden"
             data-humbleflarecount="5">
             <span class="loading"><span></span></span>
             <span class="flare-total first"><strong>1</strong> Flares</span>
@@ -48,7 +48,7 @@ layout: default
             <span class="close">
                 <a href="#close">&#215;</a>
             </span>
-        </div> -->
+        </div>
         {{ content }}
     </div><!-- .entry-content -->
 
