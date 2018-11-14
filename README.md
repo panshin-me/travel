@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ypanshin/travel/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# Travel site
+## Add posts
+To create a new post you’ll need to create a new markdown file in folder `_posts` with a file name in this format:
 ```
+YYYY-MM-DD-title.md
+```
+The format is four-digit year, followed by a hyphen then two-digit month, followed by another hyphen and two-digit day, followed by a hyphenated title and ending with the markdown file extension.
+So for example today’s date is May 29, 2016 and I want to create a new post called I love eating pizza. It would look something like this:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```
+├── _posts
+│   ├── 2016-04-06-welcome-to-jekyll.md
+│   └── 2016-05-29-i-love-pizza.md
+```
+Now that you’ve got your new post file, you’ll have to add in a few more things before you’re ready to write your post.
 
-### Jekyll Themes
+Up at the top of your new post file, you’ll have to add in some Front Matter. Front Matter is the stuff you find at the top of posts and pages between a pair of --- triple-dashes. It is written in YAML, also known as YAML Ain’t Markup Language.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ypanshin/travel/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+At a minimum, a post file should have two keys. A layout and a title key. So for my, I love pizza post, this is what the Front Matter will look like.
+```
+---
+layout: post
+title: CRANBERRY CRÈME TARTS
+author: Victoria
+categories:
+    - vegan
+image:
+    feature: IMG_0924.jpg
+---
+```
+The post content is in markdown format:
+[Basic Syntax](https://www.markdownguide.org/basic-syntax)
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Add Image
+- Upload images to a folder `assets/images/`
+- Insert the image to the post with the markdown:
+```
+![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+```
+Please use relative pathes like `assets/images/image-name.jpg`.
+## Add Category
+- Create a file in the folder: `_category` with category lowercase category name.
+- Add to the file Front Matter with a name of the category.
+```
+---
+name: Brekfast
+---
+```
