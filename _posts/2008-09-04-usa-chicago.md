@@ -6,7 +6,8 @@ tags: [Chicago,USA]
 categories: [Cities]
 imageFeature: IMG_1645-e1408387253597.jpg
 ---
-
+Chicago
+<!--more-->
   Chicago CityPass
 
 
@@ -27,7 +28,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Shedd Aquarium
+   Shedd Aquarium
 
 
 
@@ -39,7 +40,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Museum of Science and Industry
+   Museum of Science and Industry
 
 
 
@@ -51,7 +52,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � The Hancock Observatory
+   The Hancock Observatory
 
 
 
@@ -63,7 +64,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Sears Tower Skydeck
+   Sears Tower Skydeck
 
 
 
@@ -75,7 +76,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Navy Pier
+   Navy Pier
 
 
 
@@ -95,7 +96,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Grant Park
+   Grant Park
 
 
 
@@ -111,7 +112,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Millennium Park
+   Millennium Park
 
 
 
@@ -127,7 +128,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Buckingham Fountain
+   Buckingham Fountain
 
 
 
@@ -139,7 +140,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Adler Planetarium
+   Adler Planetarium
 
 
 
@@ -151,7 +152,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Field Museum of Natural History
+   Field Museum of Natural History
 
 
 
@@ -163,7 +164,7 @@ imageFeature: IMG_1645-e1408387253597.jpg
 
 
 
-  � Chicago Botanic Garden
+   Chicago Botanic Garden
 
 
 

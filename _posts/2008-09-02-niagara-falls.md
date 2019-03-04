@@ -8,7 +8,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 ---
 
   To Niagara Falls we came by car with Viki’s brother Ruslan. 
-
+<!--more-->
 
 
   Niagara USA Discovery Pass
@@ -27,7 +27,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Cave of Winds
+   Cave of Winds
 
 
 
@@ -47,7 +47,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Maid of the Mist Canada
+   Maid of the Mist Canada
 
 
 
@@ -67,7 +67,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Adventure Theater
+   Adventure Theater
 
 
 
@@ -83,7 +83,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Niagara Falls Observation Tower
+   Niagara Falls Observation Tower
 
 
 
@@ -107,7 +107,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Journey Behind the Falls
+   Journey Behind the Falls
 
 
 
@@ -123,7 +123,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � White Water Walk
+   White Water Walk
 
 
 
@@ -139,7 +139,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Whirlpool Aero Car
+   Whirlpool Aero Car
 
 
 
@@ -151,7 +151,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Butterfly Conservatory
+   Butterfly Conservatory
 
 
 
@@ -167,7 +167,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Floral Clock
+   Floral Clock
 
 
 
@@ -179,7 +179,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Queen Victoria Park
+   Queen Victoria Park
 
 
 
@@ -195,7 +195,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Skylon Tower
+   Skylon Tower
 
 
 
@@ -207,7 +207,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Nightmares Fear Factory
+   Nightmares Fear Factory
 
 
 
@@ -219,7 +219,7 @@ imageFeature: IMG_0904-e1408374796864.jpg
 
 
 
-  � Old Fort Erie
+   Old Fort Erie
 
 
 

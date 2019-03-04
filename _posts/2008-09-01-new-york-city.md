@@ -34,7 +34,7 @@ Visit to site.
 
 ### Most popular places in New York City:
 
-### ![][1]� Empire State Building Observatory
+### ![][1] Empire State Building Observatory
 
 **Address:**
   
@@ -68,7 +68,7 @@ at 1:15am.
 
 Visit to site.
 
-### ![][3]� The Metropolitan Museum of Art
+### ![][3] The Metropolitan Museum of Art
 
 **Address:**
   
@@ -100,7 +100,7 @@ Sunday: 9:30 a.m.–5:30 p.m.**
 
 Visit to site.
 
-### ![][5]� Statue of Liberty and Ellis Island
+### ![][5] Statue of Liberty and Ellis Island
 
 **Address:**
   
@@ -130,7 +130,7 @@ For full schedule options
 
 Visit to site.
 
-### ![][7]� World Trade Center Site
+### ![][7] World Trade Center Site
 
 **Address:**
   
@@ -166,7 +166,7 @@ Sunday
 
 Visit to site.
 
-### ![][10]� The Central Park
+### ![][10] The Central Park
 
 **Address:**
   
@@ -180,7 +180,7 @@ Central Park,New York, NY
 
 Visit to site.
 
-### ![][12]� Times Square
+### ![][12] Times Square
 
 **Address:**
   
@@ -194,7 +194,7 @@ Times Square,New York, NY
 
 Visit to site.
 
-### ![][14]� Brooklyn Bridge
+### ![][14] Brooklyn Bridge
 
 **Address:**
   
@@ -208,7 +208,7 @@ Brooklyn Bridge,New York, NY
 
 Visit to site.
 
-### ![][16]� Brighton Beach
+### ![][16] Brighton Beach
 
 **Address:**
   
@@ -222,7 +222,7 @@ Brighton Beach,New York,US
 
 Visit to site.
 
-### ![][18]� Washington Square Park
+### ![][18] Washington Square Park
 
 **Address:**
   
@@ -236,7 +236,7 @@ Visit to site.
 
 Visit to site.
 
-### ![][20]� Chinatown
+### ![][20] Chinatown
 
 **Address:**
   
@@ -246,11 +246,11 @@ Chinatown,New York, NY
   
 ![][2]![][2]![][2]![][2]![][8]
   
-![][21]The Chinatown neighborhood of Manhattan — (Chinese: 紐約華� ) a borough of New York City — is an ethnic enclave with a large population of Chinese immigrants, similar to Chinatown districts in other American cities. It is the second most populous Chinatown in the Western Hemisphere (after San Francisco’s Chinatown), and third in area size (San Francisco, Vancouver).
+![][21]The Chinatown neighborhood of Manhattan — (Chinese: 紐約華 ) a borough of New York City — is an ethnic enclave with a large population of Chinese immigrants, similar to Chinatown districts in other American cities. It is the second most populous Chinatown in the Western Hemisphere (after San Francisco’s Chinatown), and third in area size (San Francisco, Vancouver).
 
 Visit to site.
 
-### ![][22]� Rockefeller Center Ice Skating
+### ![][22] Rockefeller Center Ice Skating
 
 **Address:**
   

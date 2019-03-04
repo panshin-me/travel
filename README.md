@@ -35,7 +35,7 @@ The post content is in markdown format:
 - Upload images to a folder `assets/images/`
 - Insert the image to the post with the markdown:
 ```
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+[![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")](#)
 ```
 Please use relative pathes like `assets/images/image-name.jpg`.
 ## Add Category
@@ -43,6 +43,10 @@ Please use relative pathes like `assets/images/image-name.jpg`.
 - Add to the file Front Matter with a name of the category.
 ```
 ---
-name: Brekfast
+name: Breakfast
 ---
+```
+## Development
+```
+bundle exec jekyll serve
 ```
